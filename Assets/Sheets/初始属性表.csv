@@ -1,0 +1,6 @@
+属性id,属性名,属性名中文名,生命值
+int,string,string,float
+0,Health,生命值,20
+1,Stamina,耐力值,20
+2,Attack,攻击力,20
+3,Defense,防御力,20

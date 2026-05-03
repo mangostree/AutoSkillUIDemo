@@ -1,0 +1,14 @@
+技能id,技能名,技能描述,生命值,耐力值,攻击力,防御力,前置技能,NodePrefab
+int,string,string,float,float,float,float,List<int>,string
+0,生命+1,提升1点生命,1,0,0,0,,Assets/Art/Prefab/UI/Node/prefab_Node_Health.prefab
+1,防御+1,提升1点防御,0,0,0,1,,Assets/Art/Prefab/UI/Node/prefab_Node_Defense.prefab
+2,攻击+1,提升1点攻击,0,0,1,0,,Assets/Art/Prefab/UI/Node/prefab_Node_Attack.prefab
+3,生命+2,提升2点生命,2,0,0,0,0,Assets/Art/Prefab/UI/Node/prefab_Node_Health.prefab
+4,生命+1耐力+1,提升1点生命和耐力,1,1,0,0,0,Assets/Art/Prefab/UI/Node/prefab_Node_Health.prefab
+5,防御+2,提升2点防御,0,0,0,2,1,Assets/Art/Prefab/UI/Node/prefab_Node_Defense.prefab
+6,防御+1生命+1,提升1点防御和生命,1,0,0,1,1,Assets/Art/Prefab/UI/Node/prefab_Node_Defense.prefab
+7,攻击+2,提升2点攻击,0,0,2,0,2,Assets/Art/Prefab/UI/Node/prefab_Node_Attack.prefab
+8,攻击+1耐力+1,提升1点攻击和耐力,0,1,1,0,2,Assets/Art/Prefab/UI/Node/prefab_Node_Attack.prefab
+9,攻击+2耐力+1,提升2点攻击和1点耐力,0,1,2,0,8,Assets/Art/Prefab/UI/Node/prefab_Node_Attack.prefab
+10,攻击+1耐力+2,提升1点攻击和2点耐力,0,2,1,0,8,Assets/Art/Prefab/UI/Node/prefab_Node_Attack.prefab
+11,全属性+1,全属性提升1点,1,1,1,1,"3,4",Assets/Art/Prefab/UI/Node/prefab_Node_Health.prefab

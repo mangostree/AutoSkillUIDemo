@@ -1,0 +1,58 @@
+******************************************************************************************************************
+Auto Radial Layout - QUICK START GUIDE (Radial Menu)
+----------------------------------------------------------------------------
+
+Full documentation can be fount at: https://www.gigasoftworks.com/products/radiallayout/docs/overview.html
+
+******************************************************************************************************************
+
++--------------------------------------------------------------
+TABLE OF CONTENTS
+
+1. Overview
+2. Creating Radial Menus
+3. Further Help & contacts
++--------------------------------------------------------------
+
+1. Overview
+
+Update 1.1.0 introduces a new Radial Menu component that allows you to add customizable radial menus to your games.
+ 
+----------------------------------------------------------------------------------------------------------------
+
+2. Creating Radial Menus
+
+1) Place a prefab_RadialMenu gameobject in your scene, this can be done either:
+	a) by dragging the prefab found in the Prefabs/RadialMenu folder
+	b) by using the GameObject context menu under UI->Radial Layout->Radial Menu
+
+	IMPORTANT: the radial menu object must be contained inside a Canvas object!
+
+2) Right click on the added prefab and select Prefab->Unpack to be able to add or remove nodes
+
+3) Customize the colors, icons and labels inside the nodes gameobjects
+
+4) Customize animation parameters & various settings of the menu using the inspector
+
+5) Assign the action that must be executed when clicking a node using the On Click listener of the Button component
+of the node
+
+----------------------------------------------------------------------------------------------------------------
+3. Further Help & contacts
+
+You can view the full documentation at https://www.gigasoftworks.com/products/radiallayout/docs/overview.html
+
+For any question or additional support you can contact GIGA Softworks at contact@gigasoftworks.com
+
+----------------------------------------------------------------------------------------------------------------
+****************************************************************************************************************
+As a small indie developer, your feedback helps me improve this asset and continue its development.
+If you've found it useful, please consider leaving a review or sharing your thoughts: 
+
+https://assetstore.unity.com/packages/slug/293726
+
+Thank you for your support!
+****************************************************************************************************************
+
+
+
